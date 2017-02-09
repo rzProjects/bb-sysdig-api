@@ -1,0 +1,32 @@
+th, td {
+	padding: 10px 15px;
+	vertical-align: middle;
+}
+
+p {
+	margin: 2px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+thead {
+	background: #1d8b90;
+	color: #fff;
+}
+
+tbody tr:nth-child(even) {
+	background: #eff0f1;
+}
+
+td {
+	border-bottom: 1px solid #cecfd5;
+	border-right: 1px solid #cecfd5;
+	overflow: hidden;
+	max-width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+td:first-child {
+	border-left: 1px solid #cecfd5;
+}
