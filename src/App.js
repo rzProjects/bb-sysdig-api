@@ -11,7 +11,6 @@ class App extends Component {
     }
 
     render() {
-        let bob = 1;
         return (
             <div>
                 <RefreshButton sysdigManager={this.sysdigManager} />
